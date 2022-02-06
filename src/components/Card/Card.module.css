@@ -1,0 +1,60 @@
+.card {
+  max-width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: white;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  color: #436147;
+  text-align: center;
+}
+
+.card__spec-title {
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+  display: block;
+}
+
+.card__spec-value {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card__spec-value--fire {
+  color: #ff8744;
+}
+
+.card__spec-value--rock {
+  color: #727272;
+}
+
+.card__spec-value--grass {
+  color: #727272;
+}
+
+.thumbnail {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+}
+
+.description {
+  margin: 1.25rem 0 1rem;
+}
+
+.cardDescItem {
+  margin: 1rem 0;
+}
+
+.pokePropertyItem {
+  display: inline-block;
+  margin: 0 0.2rem;
+  color: #333;
+}
