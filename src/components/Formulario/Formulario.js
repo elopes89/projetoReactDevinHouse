@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react";
-
 import { useParams } from "react-router-dom";
-
 import { ErrorMessage, Field, Form, Formik } from "formik";
-
 import * as Yup from "yup";
-
 export const Formulario = () => {
   const { id } = useParams();
 
@@ -129,21 +125,7 @@ export const Formulario = () => {
           <p>{item.comentario}</p>
         </>
       ))}
-      
-      {/* <p>{numero}</p>
-      <button onClick={aumentar}>like</button>
-      <button>dislike</button> */}
+
     </>
   );
 };
-
-//  {comentarioJogo?.comentarios?.map((item) => (
-//           <>
-//         <p>NOME: {item.nome}</p>
-//         <p>{item.comentario}</p>
-//         <p>{item.likes}</p>
-//         <button onClick={()=> item.likes + 1}>like</button>
-//         <button>dislike</button>
-
-//         </>
-//       ))}
